@@ -1,5 +1,28 @@
-# Transition to Alpine Linux
-- SwayFX
+# Transition to Void Linux
+
+## Software
 - Kitty
-- ZSH
-- Shell's utilitie
+- Zathura
+- Brave
+- Bitwarden 
+
+## Shell tools
+- zsh
+- lf
+- nvim
+- tmux
+- flatpack
+- git
+- fzf
+- fd
+- exa
+- man-pages
+- tealdeer
+- tlp
+
+## Desktop Manager relatives
+- SwayFX
+- Waybar
+- wmenu
+- swaybg
+- SDDM
