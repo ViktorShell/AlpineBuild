@@ -19,6 +19,7 @@
 - man-pages
 - tealdeer
 - tlp
+- networkmanager
 
 ## Desktop Manager relatives
 - SwayFX

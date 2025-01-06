@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-QEMU_SYSTEM_FLAGS=" -enable-kvm -m 6G -smp 6 -hda virtual_disk.qcow2 -netdev user,id=net0,net=192.168.0.0/24,dhcpstart=192.168.0.9 -device virtio-net-pci,netdev=net0 -vga qxl"
-QEMU_INSTALL_FLAGS="-boot d -cdrom void.iso"
-QEMU_POST_INSTALL="-boot menu=on"
-
-qemu-system-x86_64 -enable-kvm -m 6G -smp 6 -hda virtual_disk.qcow2 -netdev user,id=net0,net=192.168.0.0/24,dhcpstart=192.168.0.9 -device virtio-net-pci,netdev=net0 -vga qxl -boot d -cdrom iso/void-live-x86_64-20240314-base.iso
